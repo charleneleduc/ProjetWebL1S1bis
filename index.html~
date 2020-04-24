@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="html">
+<head> 
+    <title>Page d'accueil</title>
+    <meta charset= "UTF-8" >
+    <meta name="nom de l'auteur" content="LEDUC Charlène" />
+    <meta name="adresse electronique" content="charlene.leduc@alumni.univ-avignon.fr" />
+    <meta name="description" content="Mini Projet" />
+    <meta name="mots clés" content="atelier, HTML" />
+    <meta name="type MIM" content="text/html" />
+
+<style>
+.html{margin:20px; padding:20px; font-family:'Liberation Serif', sans-serif;}
+.body{margin:0; padding:0;}
+.img1{position:relative; margin-left:330px; margin-right:330px; width:650px; height:250px;}
+h1{text-align:center; position:relative; margin:0;}
+.principal{position:relative; width:60%; float:left;}
+.lateral{position:relative; width:20%; float:right;}
+.menu{position:relative; width:20%; float:left;}
+ul{list-style: none;}
+.texte{font-style:italic;}
+</style>
+
+</head>
+
+<body class="body">
+    <div class="entete">
+        <img class="img1" src="banniere.jpg" alt="Cat">
+        <h1>LE TEMPS D'UN INSTANT...</h1>
+    </div>
+    <div class="menu">
+            <ul>
+                <li><a href="#">Inspirations</a></li>
+                <li><a href="#">Les produits à avoir</a></li>
+                <li><a href="#">Astuces</a></li>
+                <li><a href="#">Les influenceuses</a></li>
+            </ul>
+    </div>
+    <div class="principal">
+            <p> Reprenons le texte de Baudelaire, "Eloge du maquillage" qui résume au mieux l'envie qu'une femme a de se maquiller.</p>
+
+     <p class="texte">"La femme est bien dans son droit, et même elle accomplit une espèce de devoir en s'appliquant à paraître magique et surnaturelle; il faut qu'elle étonne, qu'elle charme ; idole, elle doit se dorer pour être adorée.<br>
+
+Elle doit donc emprunter à tous les arts les moyens de s'élever au-dessus de la nature pour mieux subjuguer les coeurs et frapper les esprits.<br>
+
+Il importe fort peu que la ruse et l'artifice soient connus de tous, si le succès en est certain et l'effet toujours irrésistible.<br>
+
+
+C'est dans ces considérations que l'artiste philosophe trouvera facilement la légitimation de toutes les pratiques employées dans tous les temps par les femmes pour consolider et diviniser, pour ainsi dire, leur fragile beauté.<br>
+
+L'énumération en serait innombrable; mais, pour nous restreindre à ce que notre temps appelle vulgairement maquillage, qui ne voit que l'usage de la poudre de riz, si niaisement anathématisé par les philosophes candides, a pour but et pour résultat de faire disparaître du teint toutes les taches que la nature y a outrageusement semées, et de créer une unité abstraite dans le grain et la couleur de la peau, laquelle unité, comme celle produite par le maillot, rapproche immédiatement l'être humain de la statue, c'est-à-dire d'un être divin et supérieur ?<br>
+
+Quant au noir artificiel qui cerne l'oeil et au rouge qui marque la partie supérieure de la joue, bien que l'usage en soit tiré du même principe, du besoin de surpasser la nature, le résultat est fait pour satisfaire à un besoin tout opposé.<br>
+
+Le rouge et le noir représentent la vie, une vie surnaturelle et excessive ; ce cadre noir rend le regard plus profond et plus singulier, donne à l'oeil une apparence plus décidée de fenêtre ouverte sur l'infini ; le rouge, qui enflamme la pommette, augmente encore la clarté de la prunelle et ajoute à un beau visage féminin la passion mystérieuse de la prêtresse.<br>
+
+
+Ainsi, si je suis bien compris, la peinture du visage ne doit pas être employée dans le but vulgaire, inavouable, d'imiter la belle nature et de rivaliser avec la jeunesse.<br>
+
+On a d'ailleurs observé que l'artifice n'embellissait pas la laideur et ne pouvait servir que la beauté.<br>
+
+Qui oserait assigner à l'art la fonction stérile d'imiter la nature ?<br>
+
+Le maquillage n'a pas à se cacher, à éviter de se laisser deviner ; il peut, au contraire, s'étaler, sinon avec affectation, au moins avec une espèce de candeur.<br>
+
+ 
+
+Je permets volontiers à ceux-là que leur lourde gravité empêche de chercher le beau jusque dans ses plus minutieuses manifestations, de rire de mes réflexions et d'en accuser la puérile solennité ; leur jugement austère n'a rien qui me touche ; je me contenterai d'en appeler auprès des véritables artistes, ainsi que des femmes qui ont reçu en naissant une étincelle de ce feu sacré dont elles voudraient s'illuminer tout entières." </p>
+    </div>
+    <div class="lateral">
+    </div>
+    <div class="pied">
+    </div>
+
+</body>
+

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html class="w3-margin">
+<title>Les produits</title>
+    <meta charset= "UTF-8" />
+    <meta name="nom de l'auteur" content="LEDUC Charlène" />
+    <meta name="adresse electronique" content="charlene.leduc@alumni.univ-avignon.fr" />
+    <meta name="description" content="Mini Projet" />
+    <meta name="mots clés" content="atelier, HTML" />
+    <meta name="type MIM" content="text/html" />
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link rel='stylesheet' href='https://www.w3schools.com/w3css/w3css_color_generator.asp'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> 
+
+<style>
+	html,body,h1,h2,h3,h4,h5,h6 {font-family: 'Playfair Display', serif;}
+	.w3-italic{font-style: italic;}
+</style>
+
+<header>
+	<img src="https://i.imgur.com/Yjwo4Du.jpg" title="Bannière" style="width:100%"/>
+</header>
+
+<body>
+	<div class="w3-row">
+		<div class="w3-col w3-left" style="width:300px">
+			<a href="index.html"><button class="w3-button w3-white w3-hover-pale-red">Retour à la page d'accueil</button></a><br>
+			<a href="astuces.html"><button class="w3-button w3-white w3-hover-pale-red">Les astuces</button></a><br>
+			<a href="influenceuses.html"><button class="w3-button w3-white w3-hover-pale-red">Les influenceuses</button></a><br>
+		</div>
+
+		<div class="w3-col w3-right w3-bar-block" style="width:300px">
+			<p class="w3-bar-item w3-right-align" style="color:#EBBBD8"> Retrouvez moi sur les réseaux : </p>
+			<a class="w3-bar-item w3-right-align" href="https://www.facebook.com/Charleneleduc21" target="_blank"><img src="images/fb.jpg" alt="Logo facebook"></a><br>
+		  <a class="w3-bar-item w3-right-align" href="https://twitter.com/Charleneleduc" target="_blank"><img src="images/twitter.png" alt="Logo Twitter"></a><br>
+		  <a class="w3-bar-item w3-right-align" href="https://www.instagram.com/charleneleduc/" target="_blank"><img src="images/insta.png" alt="Logo Instagram"></a><br>
+			<img src="https://i.imgur.com/0Q0sg7V.jpg" title="Moi" style="width:200px" class="w3-bar-item w3-right"/>	
+		</div>
+
+		<div class="w3-rest">
+			<h1 class="w3-center w3-italic" style="color:#EBBBD8"><b>Ces produits indispensables !</b></h1>
+				<div class="w3-dropdown-hover">
+				  <button class="w3-button w3-white w3-hover-pale-red">Le Teint</button>
+				  <div class="w3-dropdown-content w3-bar-block w3-card-4" >
+					<a href="#fdt" class="w3-bar-item w3-button w3-white w3-hover-pale-red">Les Fond de teint</a>
+					<a href="#anti" class="w3-bar-item w3-button w3-white w3-hover-pale-red">Les anti cernes</a>
+					<a href="#poudres" class="w3-bar-item w3-button w3-white w3-hover-pale-red">Les poudres libres</a>
+					<a href="#contour" class="w3-bar-item w3-button w3-white w3-hover-pale-red">Les palettes contouring</a>
+					<a href="#blush" class="w3-bar-item w3-button w3-white w3-hover-pale-red">Les palettes de Blush</a>
+				  </div>
+				</div>
+				<div class="w3-dropdown-hover">
+				  <button class="w3-button w3-white w3-hover-pale-red">Les Yeux</button>
+				  <div class="w3-dropdown-content w3-bar-block w3-card-4" >
+					<a href="#mascara" class="w3-bar-item w3-button w3-white w3-hover-pale-red">Les mascaras</a>
+					<a href="#palettes" class="w3-bar-item w3-button w3-white w3-hover-pale-red">Les palettes</a>
+					<a href="#sourcils" class="w3-bar-item w3-button w3-white w3-hover-pale-red">Les sourcils</a>
+				  </div>
+				</div>
+				<div class="w3-dropdown-hover">
+				  <button class="w3-button w3-white w3-hover-pale-red">Les Lèvres</button>
+				  <div class="w3-dropdown-content w3-bar-block w3-card-4" >
+					<a href="#ral" class="w3-bar-item w3-button w3-white w3-hover-pale-red">Les rouges à lèvres</a>
+				  </div>
+				</div>
+
+
+			<h4 style="color:#EBBBD8">Les produits pour le teint</h4>		
+				<h5 style="color:#EBBBD8" id="fdt">Les meilleurs fond de teint</h5>
+				<div class="w3-panel w3-border-bottom w3-border-black">
+					<h6><i class="fa fa-heart-o"></i> Dermablend 3D Correction de chez Vichy</h6>
+						<img src="https://i.imgur.com/RyeH0mr.jpg" title="Vichy" style="width:300px"/> 
+						<p>C'est le moins cher de cette sélection puisqu'il coûte 19€99 et est trouvable sur le site <a href="https://www.vichy.fr/teint-peau/3d-correction-fond-de-teint-resurfacant-actif-correcteur-16h-dermablend/p17614.aspx" target="_blank">Vichy</a> lui-même. Il convient aux peaux grasses à tendances acnéique. Il a une texture très épaisse et une très haute couvrance ! Parfait pour camoufler les imperfections, les rougeurs et même déjà diminuées légèrement les cernes. Il réduit également très nettement l’apparence des pores. Le teint est comme flouté. Il se travaille et se fond très bien avec la peau. C'est un très bon rapport qualité-prix !</p>
+					<h6><i class="fa fa-heart-o"></i> Born This Way de chez Too Faced</h6>
+						<img src="https://i.imgur.com/jGyU13f.jpg" title="Born This Way" style="width:300px"/> 
+						<p>Il coûte 38€50 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Teint/Fonds-de-Teint/Born-This-Way-Fond-de-teint/P2248001" target="_blank">Sephora</a>. Il convient à tout type de peaux. Il a une texture liquide mais pas trop, juste ce qu'il faut et sa couvrance est modulable à totale ! Si c'est pas génial ça ! Peu importe le nombre de pompes que vous mettrez, il viendra cacher tout ce qu'il y a à cacher de disgracieux sur le visage en laissant un rendu très naturel ! Néanmoins, en cas d'acnés sévères il ne camouflera pas toutes les imperfections ! Et pour finir, il a une très bonne tenue. Si vous chercher un bon fond de teint foncez !</p>
+					<h6><i class="fa fa-heart-o"></i> Diorskin Nude de chez Dior</h6>
+						<img src="https://i.imgur.com/jjW2VSB.jpg" title="Dior" style="width:300px"/> 
+						<p>Il coûte 47€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Teint/Fonds-de-Teint/Diorskin-Nude-Fond-de-Teint-Fluide-Teint-eclat-effet-peau-nue-FPS-15-SPF/P1102002" target="_blank">Sephora</a>. Il convient à tout type de peaux. C'est un fond de teint fluide, à la couvrance légère à moyenne qui unifie et corrige tout en apportant de l'éclat à la peau. Le teint est unifié et la peau est indéniablement plus éclatante. Il a une très bonne tenue tout au long de la journée et ne nécessite pas vraiment d'être poudré, un gain de temps ! Il n'est pas extrêmement couvrant et donne un rendu plus naturel. C'est un fond de teint qui correspond aux peaux avec peu d'imperfections. </p>
+					<h6><i class="fa fa-heart-o"></i> Double Wear Nude Water Fresh de chez Estée Lauder</h6>
+						<img src="https://i.imgur.com/pj0PKrq.jpg" title="Estée Lauder" style="width:300px"/> 
+						<p>Il coûte 48€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Teint/Fonds-de-Teint/Double-Wear-Nude-Fond-de-Teint-Effet-Peau-Nue-SPF-30/P3072008" target="_blank">Sephora</a>. Il convient aux peaux sèches à normales. Il a une courance modulable mais pas totale, tout dépend de comment nous l'appliquons. Il unifie le teint mais ne couvre pas les grosses imperfections. Il a un effet peau nue, zéro effet de matière. Attention toutefois en superposant les couches il peut quand même se voir légèrement, il reste quand même très fin sur la peau. Il est hydratant et lumineux néanmoins il ne sèche pas complètement et garde un fini un peu huileux. Il est très confortable du coup, il devrait plaire aux peaux sèche… Attention il est très liquide, peut-être trop pour certains. La tenue est moyenne mais quand même assez bonne pour un produit avec un fini comme celui là. Comme il garde ce côté « glowy » on a l’impression qu’il va glisser partout mais en fait il reste plutôt bien en place.</p>
+				</div>
+
+				<h5 style="color:#EBBBD8" id="anti">Les meilleurs anti cernes</h5>
+				<div class="w3-panel w3-border-bottom w3-border-black">
+					<h6><i class="fa fa-heart-o"></i> Haute Couvrance de chez Sephora</h6>
+						<img src="images/sephora.jpg" alt="sephora" style="width:300px">
+						<p>C'est le moins cher de cette sélection puisqu'il coûte 13€95 et est trouvable chez <a href="http://www.sephora.fr/Maquillage/Teint/Anticernes-Correcteur/Anticernes-haute-couvrance-Fini-naturel/P2415018" target="_blank">Sephora</a>.L’applicateur est très bien fait, il permet d’appliquer le produit aisément et directement avec l’embout mousse sur la peau. Cependant, il faudra l’essorer avant application car il prend beaucoup de matière. La texture est un gel/crème, elle est un tout petit peu plus épaisse que celle du célèbre « Naked skin » d’Urban Decay. Il ne sèche pas trop vite, on à le temps de le travailler. Cet anticernes a une très bonne couvrance. De plus, il illumine bien le dessous de l’oeil et donne un gros coup de frais ! On peut également s’en servir sur les rougeurs comme le contour du nez ou petites imperfections par exemple il est efficace. L’anticernes Sephora haute couvrance fini naturel est longue tenue. Il est toujours la en fin de journée. C'est un trèc bon rapport qualité prix !</p>
+					<h6><i class="fa fa-heart-o"></i> Born This Way de chez Too Faced</h6>
+						<img src="https://i.imgur.com/RuIWFEF.jpg" title="Born This Way" style="width:300px"/> 
+						<p>Il coûte 28€ et est disponible chez <a href="http://www.sephora.fr/Maquillage/Teint/Anticernes-Correcteur/Born-This-Way-Concealer-Anticernes/P2679017" target="_blank">Sephora</a>. L’applicateur mousse est très bien pour déposer la matière en quantité souhaité. Il faut bien tapoter la matière et ne pas trop l’étirer pour un résultat optimal. Pensez à bien fondre le tout surtout ! Il a une excellente couvrance mais mal travaillé par contre, cela peut vite donner un rendu « plâtre ». Il faut donc bien doser la quantité de produit à appliquer. En plus d’être couvrant, il illumine parfaitement le regard. Etant riche en acide hyaluronique, il permet de ne pas déshydrater le dessous de l’oeil. Parfait pour les peaux normales à sèches donc. Pour les peaux mixtes à tendance grasse, il est impératif de le poudrer pour éviter qu’il ne bouge légèrement.</p>
+					<h6><i class="fa fa-heart-o"></i> Radiant Creamy Concealer de chez Nars</h6>
+						<img src="images/nars.jpg" alt="nars" style="width:300px">
+						<p>Il coûte 30€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Teint/Anticernes-Correcteur/Radiant-Creamy-Concealer-Anti-Cernes-Eclat/P1281016">Sephora</a>. La distribution se fait via un embout mousse tout simple. L’anticernes, lui, est crémeux, non gras et hyper pigmenté ! Il glisse sur la peau, ne la dessèche pas et s’estompe très bien. La couleur est lumineuse et très pigmentée et il est tout à fait possible de moduler la couvrance avec une ou plusieurs « couches ». À l’application, le Radiant Creamy Concealer a un aspect très glowy, très lumineux un peu luisant mais une fois poudré, le finit devient totalement mat et naturel ! Il fait très bien son job : pas de pâté, pas de tâche, pas de migration mais des rougeurs totalement cachées. Par contre, il ne faut pas trop en mettre car le rendu peut devenir un peu bizarre, comme plâtré surtout avec la poudre. L’anticernes ne bouge pas même après 2h de sport. Le produit ne migre pas du tout dans les plis et ne marque pas les ridules.</p>
+					<h6><i class="fa fa-heart-o"></i> Full Cover de chez Make Up For Ever</h6>
+						<img src="images/muf.jpg" alt="full cover" style="width:300px">
+						<p>Il coûte 32€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Teint/Anticernes-Correcteur/Full-Cover-Creme-de-Camouflage-Extreme-pour-le-teint/P19035" target="_blank">Sephora</a>. Le Full Cover est un correcteur de compétition, autrement dit "une crème de camouflage extrême", elle est souvent utilisée pour recouvrir les tatouages, imaginez la puissance du truc... Ce produit est waterproof et résiste absolument à tout ! La texture est très épaisse et se travaille, il ne faut pas l'appliquer "juste comme ça" sinon vous allez plâtrer l'imperfection et elle sera encore plus visible. L'appliquer sur tout le visage ne serait vraiment pas une bonne idée car cette crème n'est pas très confortable si on ne l'utilise pas que par petites touches, elle s'étale difficilement et sèche très vite. Pour les cernées, les joues rouges, les peaux capricieuses, Full Cover est votre solution.</p>
+			</div>
+
+				<h5 style="color:#EBBBD8" id="poudre">Les meilleures poudres libres</h5>
+				<div class="w3-panel w3-border-bottom w3-border-black">
+					<h6><i class="fa fa-heart-o"></i> Invisible Powder de chez Kiko</h6>
+						<img src="images/poudrekiko.jpg" alt="poudre" style="width:300px">
+						<p>C'est la moins cher de cette sélection puisqu'elle coûte 12€95 et est trouvable chez <a href="https://www.kikocosmetics.com/fr-fr/maquillage/visage/poudres/Invisible-Touch-Face-Fixing-Powder/p-KM0010800900144" target="_blank">Kiko</a>. Une poudre invisible qui ne se voit pas. Un produit indispensable quand on a une peau qui a tendance à briller. Il est facile d'utilisation grâce à son éponge intégrée. Il rend la peau mat et tient toute la journée sans dessécher la peau. C'est un très bon rapport qualité prix !</p>
+					<h6><i class="fa fa-heart-o"></i> Beauty Amplifier Poudre Lissante Eclat de chez Sephora</h6>
+						<img src="images/poudresephora.jpg" alt="poudre" style="width:300px">
+						<p>Elle coûte 15€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Teint/Poudre-libre/Beauty-Amplifier-Poudre-libre-lissante-fixante-/P3070017" target="_blank">Sephora</a>. Cette poudre rend la peau lisse et matifiante, sans rendre la peau plus clair, attention à ne pas trop en mettre elle risque de faire un effet sec sur la peau. Pour les peaux à tendance grasse il faut se poudrer régulièrement car elle ne matifie que 2/3 heures. Facile à appliquer et agréable à porter. Elle fixe le maquillage. Elle a un prix très correct et est en réelle concurrence avec la poudre de chez Kiko.</p>
+					<h6><i class="fa fa-heart-o"></i> Poudre HD Microfinition de chez Make Up For Ever</h6>
+						<img src="images/poudremuf.jpg" alt="poudre" style="width:300px">
+						<p>Elle coûte 33€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Teint/Poudre-matifiante/Poudre-Ultra-HD-Libre-Poudre-libre-microfinition/P2823001">Sephora</a>. La poudre est très fine, invisible sur la peau malgré cette teinte blanche, le rendu plus imperceptible qu'avec une poudre matifiante "classique". Elle floute le grain de peau momentanément, avec un effet peau douce et veloutée. Elle ne laisse aucune trace blanche ou autre, je vois un réel effet sur la peau, elle tient longtemps. Son seul bémole est son prix excessif.</p>
+					<h6><i class="fa fa-heart-o"></i> Poudre Libre Fixante de chez Laura Mercier</h6>
+						<img src="images/poudrelm.jpg" alt="poudre" style="width:300px">
+						<p>Elle coûte 42€ et est disponible chez <a href="https://birchbox.fr/marques/laura-mercier/invisible-loose-powder" target="_blank">Birchbox</a>. Cette poudre laisse un fini doux sur la peau, elle est incroyable. Elle donne un effet ultra naturel, et surtout elle unifie le teint, elle gomme les imperfections. Elle est juste bluffante! De plus elle correspond à toutes les teintes de peau. Néanmoins, attention à ne pas trop en mettre. Malgré son prix élevé elle est très apprécié des internautes.</p>
+				</div>
+
+				<h5 style="color:#EBBBD8" id="contour">Les meilleures palettes de contouring</h5>
+				<div class="w3-panel w3-border-bottom w3-border-black">
+					<h6><i class="fa fa-heart-o"></i> Palette Contouring Studio de chez ELF</h6>
+						<img src="https://i.imgur.com/u6crkit.jpg" title="ELF" style="width:300px"/>
+						<p>C'est la moins cher de cette sélection puisqu'elle coûte 8€ et est trouvable chez <a href="https://www.eyeslipsface.fr/produit-beaute/palette-contouring-studio" target="_blank">ELF</a>. La palette n’est pas trop grande, les fards ont pourtant une taille correcte. Au niveau des poudres, on trouve encore quatre teintes différentes, elle est un peu moins complète que la Makeup Revolution. La texture des poudre est fine et satinée. Les poudres sont pigmentées et s'estompent parfaitement bien. L'hilighter est très subtil mais naturel et peut se porter tous les jours. C'est une palette que vous apprécierez si vous débutez.</p>
+					<h6><i class="fa fa-heart-o"></i> UltraContour Palette de chez Make Up Revolution</h6>
+						<img src="https://i.imgur.com/L2jgq3s.jpg" title="MUR" style="width:300px"/> 
+						<p>Elle coûte 9€99 et est disponible chez <a href="https://www.maquillalia.com/makeup-revolution-ultra-contour-palette-p-18912.html" target="_blank">Maquillalia</a>. Elle possède trois poudres bronzantes, 2 poudres de finition, une rosée et une plutôt jaune, et 3 hilighters, un champagne, un pêche et un blanc. On a largement de quoi se faire plaisir avec cette palette pour les amatrices de contouring et de strobing. Très honnêtement, pour son prix, la qualité des poudres est impressionnante. Elles sont vraiment bien pigmentées mais faciles à travailler et la tenue est vraiment top ! Je vous la recommande si vous chercher une palette complète à petit prix !</p>
+					<h6><i class="fa fa-heart-o"></i> Naked Flushed de chez Urban Decay</h6>
+						<img src="images/nfud.jpg" alt="coutour ud" style="width:300px">
+						<p>Elle coûte 37€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Palettes-Coffrets/Teint/Naked-Flushed-Palette-Teint/P1273063">Sephora</a>. Cette palette est disponible dans 6 teintes différentes donc vous trouverez forcément votre bonheur. Elle se compose d'un bronzer, d'un hilighter et d'un blush. Elle est très compacte donc facile à emporter et ces fards ont quand même une très bonne quantité. Elle n'est pas donnée niveau prix mais contient l'essentiel. </p>
+					<h6><i class="fa fa-heart-o"></i> Shade+Light Contour Palette de chez Kat Von D</h6>
+						<img src="https://i.imgur.com/Kb3j5YA.jpg" title="Kat Von D" style="width:300px"/> 
+						<p>Elle coûte 45€ et est disponible chez <a href="http://www.sephora.fr/Maquillage/Palettes-Coffrets/Teint/Shade-Light-Contour-Palette-Palette-contour-visage/P2572022" target="_blank">Sephora</a>. Il s’agit d’une palette contouring contenant 6 poudres au fini mat adaptées à toutes les carnations. Ces poudres pour le contouring sont douces et faciles à travailler. Elle est conseillée vivement aux peaux normales, mixtes et grasses ! En revanche, si votre peau est sèche, n’ayez pas la main lourde car elle risque d’accentuer vos sécheresse. Si vous aimez les hilighters bien brillant passez votre chemin car cette palette contient 0 paillette. La palette est 100% vegan !</p>
+				</div>
+
+				<h5 style="color:#EBBBD8" id="blush">Les meilleures palettes de blush</h5>
+				<div class="w3-panel w3-border-bottom w3-border-black">
+					<h6><i class="fa fa-heart-o"></i> Palette de Blush Studio de chez ELF</h6>
+						<img src="https://i.imgur.com/zctLqtw.jpg" title="ELF" style="width:300px"/> 
+						<p>C'est la moins cher de cette sélection puisqu'elle coûte 8€ et est trouvable chez <a href="https://www.eyeslipsface.fr/produit-beaute/palette-de-blush-studio" target="_blank">ELF</a>. Ce quad qui propose quatre blush est juste superbe. La pigmentation est folle et nécessite d'avoir la main légère. Les couleurs sont super pour les peaux claires, le miroir est pratique est permet d'utiliser la palette n'importe ou. Bonne couvrance, jolies couleurs de blush qui illuminent le visage ! Une très bonne petite palette pour débuter. </p>
+					<h6><i class="fa fa-heart-o"></i> Infaillible Paint La palette Blush de chez L'Oréal</h6>
+						<img src="https://i.imgur.com/EHCOzhb.jpg" title="L'Oreal" style="width:300px"/> 
+						<p>Elle coûte 16€20 et est disponible chez <a href="https://www.loreal-paris.fr/maquillage/teint/blush/infaillible-paint-la-palette-blush?varcode=3600523354177&LGWCODE=3600523354177;139077;3657&gclid=CjwKCAiAj53SBRBcEiwAT-3A2GsZHviGmU212WovivTEcHGZcvxrZwiSScrWUg6FXzBKn3iNOtxLiRoCN0wQAvD_BwE" target="_blank">L'Oréal Paris</a>. Elle existe en 2 teintes différentes et contient 5 fards à chaque fois. La pigmentation est clairement au rendez-vous ! La texture des blushs est assez poudrée mais pas trop et ils se travaillent très facilement. L’Infaillible Blush Paint est une très bonne alternative pour celles qui souhaiteraient soit élargir leur collection de blush, soit découvrir une nouvelle palette a petit prix !</p>
+					<h6><i class="fa fa-heart-o"></i> Blush Trio de chez Anastasia Beverly Hills</h6>
+						<img src="https://i.imgur.com/YSYVxm8.jpg" title="ABH" style="width:300px"/> 
+						<p>Elle coûte 33€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Teint/Blush/Blush-Trio/P3076021">Sephora</a>. Beau packaging digne d'une grande marque, jolie couleur modulable. Les 3 teintes sont bien complémentaires, fusionnent très bien et donnent un joli rendu naturel et bonne mine. Très bonne présentation avec les trois couleurs, très bonne tenue, très faciles d'application. Tient toute la journée et très beau rendu, et le fait de pouvoir utiliser les couleurs ensembles ou séparément c’est vraiment génial !</p>
+					<h6><i class="fa fa-heart-o"></i> Air Blush de chez Marc Jacobs</h6>
+						<img src="https://i.imgur.com/b4gfWhQ.jpg" title="Marc Jacobs" style="width:300px"/> 
+						<p>Elle coûte 37€ et est disponible chez <a href="http://www.sephora.fr/Maquillage/Teint/Blush/Air-Blush/P2679013" target="_blank">Sephora</a>. Il existe 5 teintes différents composées à chaque fois de 2 blush. Le nouveau Air Blush by Marc Jacobs a été pensé pour « lifter, sculpter, apporter du volume » grâce à la technique du draping. Une nouvelle tendance inspirée du contouring qui consiste à réaliser un contouring avec du blush (et plus précisément 2 teintes de blush) ! Sous la pommette, là où l’on appliquerait son bronzer on balaye une couleur de blush un peu plus foncée/plus « chaude » ou bronze tandis que sur la pommette on opte pour un rose plus vibrant. Cet Air Blush bicolore a été pensé pour habiller les pommettes d’un fini velouté, d’une couleur naturellement lumineuse, inspirée de l’effet « bonne mine » produit par une folle soirée.</p>
+				</div>
+
+			<h4 style="color:#EBBBD8">Les produits pour les yeux</h4>		
+				<h5 style="color:#EBBBD8" id="mascara">Les meilleurs mascaras</h5>
+				<div class="w3-panel w3-border-bottom w3-border-black">
+					<h6><i class="fa fa-heart-o"></i> Dermablend 3D Correction de chez Vichy</h6>
+						<img src="images/mascaramay.jpg" alt="mascara" style="width:300px">
+						<p>C'est le moins cher de cette sélection puisqu'il coûte 10€ et est trouvable sur le site <a href="https://beauty-discount.fr/mascara/3610-mascara-cils-sensational-gemey-maybelline.html?utm_medium=cpc&utm_campaign=Shopping-flux&utm_term=Home&utm_source=googleShopping+%28via+Shopping+Flux%29" target="_blank">Beauty Discount</a>. C'est un mascara volumateur, effet « éventail ». C’est à dire que la brosse incurvée (en plastique) sépare bien les cils et les différentes tailles des picots permettent une application de la matière parfaitement adaptée. La formule utilisée dans le Cils Sensational est également allégée en cire, elle est plus fluide, plus légère. La partie incurvée de la brosse se place au ras des cils, on la tourne ensuite en remontant sur les cils. On applique ainsi la bonne quantité de produit, et on sépare vraiment les cils. Il donne du volume, recourbe les cils, les allonge et les sépare sans faire de paquets. Il a un effet naturel qu'on adore !</p>
+					<h6><i class="fa fa-heart-o"></i> They're Real de chez Benefit</h6>
+						<img src="images/mascarabene.jpg" alt="mascara" style="width:300px">
+						<p>Il coûte 27€ et est disponible chez <a href="http://www.sephora.fr/Maquillage/Yeux/Mascara/They-re-Real-Mascara-Volume-volumateur-et-allongeant/P605001" target="_blank">Sephora</a>. Il allonge les cils et leur apporte du volume. Il les recourbe également très bien. La différence n’est pas flagrante avec ou sans utilisation du recourbe-cils d’ailleurs, preuve de son efficacité. Sa brosse est pratique pour recouvrir tous les cils d’un seul coup, même ceux en coin interne et externe, difficile à attraper. Son intensité est parfaite, tout comme sa tenue d’ailleurs. Il tient effectivement toute la journée sans couler.</p>
+					<h6><i class="fa fa-heart-o"></i> Volume de Dior de chez Dior</h6>
+						<img src="images/mascarachanel.jpg" alt="mascara" style="width:300px">
+						<p>Il coûte 35€ et est disponible chez <a href="http://www.sephora.fr/Maquillage/Yeux/Mascara/LE-VOLUME-DE-CHANEL-Mascara/P1289011?skuId=337671&LGWCODE=337671;56669;3577&utm_source=google&utm_medium=cpc&utm_campaign=PLAMaquillage_search_Yeux&utm_term=&gclid=CjwKCAiAj53SBRBcEiwAT-3A2Dg4VzihkcpZ-Vv9M1VFVKuiE8WY71lBRisb3Q-OMYF26mQ03aiLwBoCyFYQAvD_BwE" target="_blank">Sephora</a>. Les cils s'allongent et se démultiplient, ils gagnent en longueur et volume. La formule du mascara est plutôt réussie, elle est assez fluide, pas trop épaisse et se travaille bien même en n'ayant peu de temps. Elle sèche rapidement et ne cartonne pas les cils. Elle n'alourdit d'ailleurs pas les cils et ne les fait pas ployer. Elle est bien noire, ce qui est génial quand on aime les cils intensifiés en couleur. La brosse est en silicone et est assez grosse. Elle n'est pas très pratique pour les cils du bas, on a tendance à s'en mettre partout. Par contre, elle est facile à manier et attrape les cils dès la racine, même les plus courts. Elle a un embout qui permet d'insister un peu plus sur les cils extérieurs. La combinaison de la brosse et de la formule du Volume de Chanel est très réussie. En une couche, on a un résultat très satifaisant, avec des cils allongés et volumisés. En deux couches, le résultat est un peu amplifié et il n'y a pas d'effet pattes d'araignée donc c'est super pour le porter au quotidien. Le regard est effectivement ouvert et du coup, on a l'air un peu moins fatigué.</p>
+					<h6><i class="fa fa-heart-o"></i> So curl de chez Sisley</h6>
+						<img src="images/mascarasis.jpg" alt="mascara" style="width:300px">
+						<p>Il coûte 43€50 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Yeux/Mascara/Mascara-So-Curl/P2414049" target="_blank">Sephora</a>. So Curl est un mascara dont la formule combine soin complet des cils et texture gainante, recourbante et longue tenue pour une frange de cils aux courbes renversantes, et des cils jour après jour plus longs, plus denses, plus forts et plus beaux. Il contient de la Pro-vitamine B5 qui est fortifiante, elle donne du corps et du volume aux cils, des Phytocéramides de Riz qui se fixent sur les cils afin de les rendre plus résistants et de l’extrait de Passiflore adoucit et l’huile de Ricin qui contribue à revitaliser et à embellir les cils.  En 4 semaines, les cils sont plus longs et plus denses. Ils sont fortifiés et tombent moins lors du démaquillage. Entre volume et courbes, le mascara So Curl offre un regard captivant grâce à sa formule gainante, recourbante et longue tenue. La brosse du mascara So Curl a été étudiée pour épouser parfaitement la forme de l’œil et imprimer une cambrure instantanée. Constituée de fibres idéalement implantées, elle permet de déposer la juste dose de produit en un passage pour des cils étoffés sans paquet. Très maniable, elle permet d’attraper facilement tous les cils, même les plus petits, pour une frange de cils parfaitement déployée. Ultra-douce et souple elle offre un véritable confort à l’application.</p>
+				</div>
+
+				<h5 style="color:#EBBBD8" id="palette">Les meilleures palettes</h5>
+				<div class="w3-panel w3-border-bottom w3-border-black">
+					<h6><i class="fa fa-heart-o"></i> Flawless de chez Make Up Revolution</h6>
+						<img src="images/palettemur.jpg" alt="palette" style="width:300px">
+						<p>C'est la moins cher de cette sélection puisqu'elle coûte 9€95 et est trouvable sur le site <a href="https://www.maquillalia.com/makeup-revolution-palette-fard-paupires-flawless-p-13858.html" target="_blank">Maquillalia</a>. La palette possède un grand miroir face à ses 32 fards. Parmi les fards satinés dont certains sont semi crémeux, 6 sont mates. L'application est agréable, car ils se travaillent facilement grâce à la bonne  pigmentation et la texture des fards satinés qui sont légèrement crémeux. Le ton chaud et nude  cohabite dans cette palette pour le bonheur de celle qui recherche un maquillage de tous les jours. Elle offre aussi des possibilités en smoky, même si à mon avis elle n'est pas vraiment destinée pour cela. Mais, tout est possible avec cette palette et chacune fait comme elle veut évidemment. Cette palette est très bien fournie et possède de nombreux fards, le rapport qualité-prix est excellent et imbattable !</p>
+					<h6><i class="fa fa-heart-o"></i> Modern Renaissance de chez Anastasia Beverly Hills</h6>
+						<img src="images/mrabh.jpg" alt="modern renaissance" style="width:300px">
+						<p>Elle coûte 49€ et est disponible chez <a href="http://www.sephora.fr/Maquillage/Palettes-Coffrets/Yeux/Modern-Renaissance-Palette-de-fards-a-paupieres/P2678023" target="_blank">Sephora</a>. Elle se compose de 14 fards à paupières dans les tons neutres et baie dont dix mats, deux métallisés et deux satinés. Les couleurs sont toutes très jolies et offrent effectivement de multiples harmonies possibles. La Modern Renaissance peut se suffire à elle-même. Les fards sont archi pigmentés et possèdent une texture tendre qui permet de les travailler à merveille. Ils sont par contre poudreux à mort et même s’il suffit de penser à tapoter son pinceau avant d’attaquer le chantier, ce qui évite de voir son visage et son teint recouvert de pigments. Les fards accrochent à merveille la paupière et ils tiennent sans filer toute la journée. La Modern Renaissance d’Anastasia Beverly Hills a provoqué un véritable buzz et elle est encore aujourd’hui en rupture de stock très régulièrement. Pour le prix, c’est un bon investissement puisque les fards à l’unité sont très chers et qu’ici, on se retrouve avec quatorze fards de qualité dans des teintes très facilement portables et associables entre elles. Une palette à avoir dans ses tiroirs.</p>
+					<h6><i class="fa fa-heart-o"></i> Naked Heat de chez Urban Decay</h6>
+						<img src="images/nhud.jpg" alt="naked heat" style="width:300px">
+						<p>Elle coûte 49€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Palettes-Coffrets/Yeux/Naked-Heat-Palette-de-fards-a-paupieres/P3024012" target="_blank">Sephora</a>. Au total, ce sont donc 12 teintes, composées de 8 fards mats, 1 cuivré et 3 métalliques, totalement exclusives qui ont été développées par Urban Decay. Comme à son habitude, la marque a intégré un grand miroir ainsi qu’un double-embout à sa palette Naked Heat. Tendance oblige, la Naked Heat propose une large dominante de fards à paupières au fini mat. Pour les fards restants, il faudra compter sur une proposition irisée et métallisée. Cette proposition de palette de maquillage a franchement de quoi provoquer des dégâts chez celles qui débutent en makeup. Disons que cette palette-ci est beaucoup plus clivante que les précédentes. La tenue des fards est toujours très bonne néanmoins, ces fards provoquent énormément de chutes. C'est une palette à avoir si on adore les tons chauds et les maquillages assez voyant.</p>
+					<h6><i class="fa fa-heart-o"></i>  Textured Shadows Palette Rose Gold Edition de chez Huda Beauty</h6>
+						<img src="images/palettehb.jpg" alt="huda beauty" style="width:300px">
+						<p>Elle coûte 64€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Yeux/Fard-a-paupieres/Textured-Shadows-Palette-Rose-Gold-Edition-Palette-de-fards-a-paupieres/P2826005" target="_blank">Sephora</a>. Dix-huit fards composent donc cette palette : 6 fards 3D métalliques, 2 fards perlés et 10 fards mats. Les fards dits "3D" sont à appliquer au doigt car un pinceau ne prendra aucune matière ! L’effet de ses fards à paupières est complètement dingue et tiennent super bien ! Aucun ne se ressemble, ils sont doux et se mélangent entre eux très bien. Ils sont très modulables, car si vous le souhaitez en outre, ils peuvent se superposer sans se fondre en une seule couleur grise. Les fards ne chutent pas énormément, sauf pour les deux fards 3D qui possèdent le plus de texture. Aussi, le fard BAE fait beaucoup de poudre quand on le prélève seulement. Les fards sont très pigmentés et se travaillent bien. Il faut juste veiller à ne pas déposer un pâté de couleur qui sera ensuite dur à estomper. Son prix est élevé mais pour des fan de makeup foncez !</p>
+				</div>
+
+				<h5 style="color:#EBBBD8" id="sourcils">Les meilleures produits sourcils</h5>
+				<div class="w3-panel w3-border-bottom w3-border-black">
+					<h6><i class="fa fa-heart-o"></i> Crayon sourcils de chez Yves Rocher</h6>
+						<img src="images/yvesrocher.jpg" alt="sourcils" style="width:300px">
+						<p>C'est le moins cher de cette sélection puisqu'il coûte 9€90 et est trouvable sur le site <a href="https://www.yves-rocher.fr/maquillage/yeux/sourcils/crayon-sourcils/p/yr.R20410#description" target="_blank">Yves Rocher</a>. Il est facile à utiliser et se décline en quatre teintes selon votre couleur de cheveux. Canon aussi la brosse à sourcils, pas façon peigne mais façon applicateur de mascara, beaucoup plus efficace ! Pour les débutantes en maquillage ce crayon est fait pour vous car il n'est pas trop cher mais efficace !</p>
+					<h6><i class="fa fa-heart-o"></i> Dipbrow Pomade de chez Anastasia Beverly Hills</h6>
+						<img src="https://i.imgur.com/8TEEuA2.jpg" title="ABH" style="width:300px"/> 
+						<p>Il coûte 21€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Sourcils/Mascara-Gel-Sourcils/DIPBROW-Pomade-Creme-gel-pour-sourcils/P2678015" target="_blank">Sephora</a>. On découvre un petit pot en verre de 4g aux finitions très qualitatives. On pourrait penser que 4g ce n’est rien, mais je vous assure qu’avant de venir à bout de ce petit pot, il va s’écouler un bon moment. Le produit étant très pigmenté et surtout, il en faut très peu, il est vraiment économique. Ce produit est idéal pour avoir un rendu sourcils sophistiqué, un peu à l’image des “sourcils instagram” si vous voyez ce que je veux dire. C’est le produit parfait pour obtenir des sourcils parfaits avec une très longue tenue, le tout en restant naturel. La texture est très fondante en la prélevant du pot, mais surtout : elle se travaille terriblement bien. Il est waterproof et sèche totalement. </p>
+					<h6><i class="fa fa-heart-o"></i> Aqua Brow de chez Make Up For Ever</h6>
+						<img src="https://i.imgur.com/kE6HRuH.jpg" title="MUF" style="width:300px"/>
+						<p>Il coûte 22€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Sourcils/Mascara-Gel-Sourcils/Aqua-Brow-Correcteur-Sourcils-Waterproof/P1042006" target="_blank">Sephora</a>. Aqua Brow est un correcteur sourcils à la texture crémeuse. Il permet de redessiner, intensifier et redéfinir la ligne des sourcils. Sa formule longue tenue résiste à l'eau et couvre tous les poils pour un résultat net et précis. Il faut choisir la couleur du correcteur un ton plus clair que les sourcils. Prélevez une très petite quantité de produit sur le dessus de la main ou directement du tube, plus comblez les zones dégarnies ou redessinez entièrement la ligne des surcils, et laissez sécher quelques secondes. 7 teintes sont disponibles.</p>
+					<h6><i class="fa fa-heart-o"></i>  Goof Proof de chez Benefit</h6>
+						<img src="https://i.imgur.com/6DqpCHC.jpg" title="Benefit" style="width:300px"/>
+						<p>Il coûte 27€50 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Sourcils/Crayon-Poudre-Sourcils/goof-proof-Crayon-sourcils-pour-combler-et-etoffer/P2578002" target="_blank">Sephora</a>. Il s'agit d'un système à double-embout. Le premier côté se compose d'une mine biseautée en forme de losange. Le second côté présente un goupillon (brosse) pour estomper le produit et coiffer les sourcils après l'application. La pigmentation est top en réalité. La mine est suffisamment fine pour tracer avec précision les contours et pour remplir et combler les trous de façon très rapide. La est tout bonnement parfaite ! Si le côté sec peut être un frein quant à l’application, clairement c’est un point positif pour la tenue. En effet, la matière ne bouge pas de la journée, aucune bavure et surtout aucune perte d’intensité, c’est parfait.</p>
+				</div>
+
+			<h4 style="color:#EBBBD8">Les produits pour les lèvres</h4>		
+				<h5 style="color:#EBBBD8" id="ral">Les meilleurs rouges à lèvres</h5>
+				<div class="w3-panel w3-border-bottom w3-border-black">
+					<h6><i class="fa fa-heart-o"></i> Longstay Liquid Matte Lipstick de chez Golden Rose</h6>
+						<img src="https://i.imgur.com/Pl1zafM.png" title="RAL" style="width:300px"/>
+						<p>C'est le moins cher de cette sélection puisqu'il coûte 5€90 et est trouvable sur le site <a href="http://www.cookiesmakeup.com/article/longstay_liquid_matte_lipstick_240.php" target="_blank">Cookie's Make Up</a>. Il existe 26 coloris différents qui sont très variés et au goût de chacuns. La matière est facile à appliquer et il sent le cupcake à la vanille ce qui est un bonus important. L’embout mousse permet d’épouser facilement le contour des lèvres. Une seule couche suffit pour que le fini soit bien opaque. La matière sèche rapidement, en 2 minutes le fini est complètement mat sans pour autant avoir l’impression d’avoir appliqué du plâtre sur ses lèvres. Son opacité et sa longévité sont clairement ses points forts. Je le trouve comparable au Rouge velouté sans Transfert de Sephora, mais en moins liquide et moins asséchant. La formulation le rend facile à appliquer et agréable à porter.</p>
+					<h6><i class="fa fa-heart-o"></i> Rouge velouté sans transfert de chez Sephora</h6>
+						<img src="https://i.imgur.com/Ng4N899.jpg" title="Ral" style="width:300px"/> 
+						<p>Il coûte 10€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Levres/Rouge-a-Levres/Rouge-veloute-sans-transfert-Cream-lip-stain/P407019" target="_blank">Sephora</a>. À l’application, on apprécie sa senteur gourmande. La texture est fondante, mais pas vraiment liquide, presque mousse, et de ce fait facile à appliquer sans déborder. Au bout d’une à deux minutes environ, la formule se matifie et devient littéralement sans transfert. Des bisous, des cafés, des essayages de vêtements, rien ne se tache de ce rouge à lèvres. Parce qu’il a une excellente qualité/prix et qu’il est sans transfert. Son opacité en une seule couche est également appréciable. Comme c’est l’un des rouges à lèvres liquides les plus tenaces du marché, il n’est pas très doux avec nos lèvres. Je ne conseille pas de le porter tous les jours, même par-dessus un bon baume. C’est exactement ce que la marque en dit, pas de publicité mensongère. La texture est fondante à souhait et la tenue irréprochable.</p>
+					<h6><i class="fa fa-heart-o"></i>  Everlasting Liquid Lipstick de chez Kat Von D</h6>
+						<img src="https://i.imgur.com/5fHXRAV.jpg" title="Kat Von D" style="width:300px"/> 
+						<p>Il coûte 19€95 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Levres/Rouge-a-Levres/Everlasting-Liquid-Lipstick-Rouge-a-levres-liquide/P2572013" target="_blank">Sephora</a>. L’applicateur est adapté sur un manche très long, ce qui, je trouve, ne facilite pas l’application, on a davantage tendance à déborder. La texture est moins opaque que le Lip Stain Sephora, surtout pour les teintes les plus claires. C’est l’une des gammes les plus riches en couleurs originales, et certaines sont déjà cultes (Bow N Arrow, un nude très nude, Lolita et son petit frère Lolita I, Lovesick…). Le fini est mat, la tenue est longue, formule est crémeuse, mais pour les teintes hautement pigmentées, tout dépend de la couleur sélectionnée. La collection de rouges à lèvres liquides Everlasting est composée de 26 teintes, de la plus classique à la plus originale.</p>
+					<h6><i class="fa fa-heart-o"></i> Melted Matte de chez Too Faced</h6>
+						<img src="https://i.imgur.com/EClKk0k.jpg" alt="liquid lipstick" style="width:300px">
+						<p>Il coûte 21€50 et est disponible chez <a href="http://www.sephora.fr/Maquillage/Levres/Rouge-a-Levres/Melted-Matte-Rouge-a-levres-liquefie-longue-tenue-mat/P2679019" target="_blank">Sephora</a>. La formule des Melted Matte Too Faced a été optimisée : les Melted Matte sont enrichis en huile d’avocat et en vitamine E afin d’apporter davantage de confort sur les lèvres. En plus, le « Vollulip », un ingrédient qui booste le volume des lèvres, a été ajouté à la formule.  L'application est simple, uniforme dès le premier passage, le séchage est rapide et laisse un fini vraiment mat. Il est sans transfert et ne bouge presque pas. Il suffit d'une petite retouche après le repas pour un résultat parfait mais rien d'alertant si jamais vous ne l'avez pas sur vous ! Il n'assèche pas les lèvres et laisse une sensation très légère sur les lèvres.</p>
+				</div>
+		</div>
+	</div>
+
+	<div>
+		<footer class="w3-center">LEDUC Charlène - Mini Projet Conception Internet - 2017-2018</footer>
+	</div>
+
+</body>
+</html>
